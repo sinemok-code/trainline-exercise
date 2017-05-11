@@ -6,6 +6,9 @@ namespace AddressProcessing.CSV
     /*
         2) Refactor this class into clean, elegant, rock-solid & well performing code, without over-engineering.
            Assume this code is in production and backwards compatibility must be maintained.
+
+        Found out that this code is not good to refactor using same signature. 
+        Created new CsvReader and CsvWriter classes for that purpose.
     */
 
     public class CSVReaderWriter
